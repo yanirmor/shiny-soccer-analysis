@@ -19,7 +19,9 @@ basicPage(
       rel = "stylesheet", 
       href = "https://fonts.googleapis.com/css?family=Open+Sans"
     ),
-    tags$title("Soccer Analysis")
+    tags$title("Soccer Analysis"),
+    
+    includeScript(path = "js/matomo_script.js")
   ),
   
   includeCSS(path = "style.css"),
@@ -188,6 +190,12 @@ basicPage(
           tags$li("Icon by Ivan Boyko / Iconfinder (CC BY 3.0)")
         )
       )
+    ),
+    
+    div(
+      id = "privacy_notice",
+      span("This website uses cookies to improve your experience"),
+      actionButton(inputId = "privacy_notice_agree", label = "OK")
     )
   )
 )
