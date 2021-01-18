@@ -22,13 +22,6 @@
     .form-control { margin-bottom: 12px; font-size: 14px; }
     .btn, .btn:focus { padding: 8px 12px; font-size: 14px; margin-top: 12px; }
 
-    /* modals */
-
-    .modal-dialog { margin: auto; top: 10%; }
-    .modal-title { font-size: 19px; }
-    .modal-title img { height: 25px; }
-    .modal-content { padding: 18px; }
-
     /* progress bar */
 
     #shiny-notification-panel { margin: 15px; }
@@ -123,6 +116,4 @@
     footer { font-size: 12px; }
     footer #licenses { font-size: 11px; }
     footer #licenses > div { font-size: 10px; }
-    footer #privacy_notice { font-size: 9px; }
-    footer #privacy_notice_agree { padding: 0 5px; }
 }

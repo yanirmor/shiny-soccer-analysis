@@ -2,6 +2,4 @@
 .Rproj.user
 .Rhistory
 
-R/adapt_data.R
-
 rsconnect/*
