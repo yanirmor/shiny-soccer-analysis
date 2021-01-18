@@ -11,15 +11,13 @@ suppressPackageStartupMessages({
   library(dplyr)
   library(ggplot2)
   library(scales)
-  library(RPostgres)
-  library(DBI)
   library(extrafont)
   library(rintrojs)
 })
 
 # scripts -----
 source(file = "functions.R")
-source(file = "R/create_pitch.R")
+source(file = "rscripts/create_pitch.R")
 
 # static data -----
 pitch_df <- read.csv(file = "data/pitch_df.csv")

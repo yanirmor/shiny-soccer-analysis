@@ -2,7 +2,7 @@
 
     /* general */
 
-    body { font-size: 15px; padding: 0 0 45px 0; }
+    body { font-size: 15px; padding: 0 0 75px 0; }
     .highlighted { font-size: 23px; }
 
     /* header */
@@ -14,20 +14,13 @@
 
     /* wrapper */
 
-    .wrapper { padding: 25px 35px; }
+    .wrapper { padding: 25px 35px 0 35px; margin-bottom: 25px; }
     .wrapper .content-title { margin-bottom: 5px; }
 
     /* inputs */
 
     .form-control { margin-bottom: 12px; font-size: 14px; }
     .btn, .btn:focus { padding: 8px 12px; font-size: 14px; margin-top: 12px; }
-
-    /* modals */
-
-    .modal-dialog { margin: auto; top: 10%; }
-    .modal-title { font-size: 19px; }
-    .modal-title img { height: 25px; }
-    .modal-content { padding: 18px; }
 
     /* progress bar */
 
@@ -46,23 +39,23 @@
     /* menu */
 
     #intro_button { margin: 0 100% 15px 100%; }
-	#select_inputs, #checkboxes { width: 100%; margin-bottom: 15px; }
-	#select_inputs > .form-group { width: 180px; }
+    #select_inputs, #checkboxes { width: 100%; margin-bottom: 15px; }
+	  #select_inputs > .form-group { width: 180px; }
 
-	/* viz */
+	  /* viz */
 
-	#viz_wrapper { width: 510px; height: 325px; }
-	#viz img { width: 510px; height: 325px; }
+	  #viz_wrapper { width: 510px; height: 325px; }
+	  #viz img { width: 510px; height: 325px; }
 
     /* footer */
-    footer { font-size: 14px; height: 45px; }
+    footer { font-size: 14px; }
 }
 
 @media (max-width: 576px) {
 
     /* general */
 
-    body { font-size: 15px; padding: 0 0 45px 0; }
+    body { font-size: 15px; padding: 0 0 75px 0; }
     .highlighted { font-size: 22px; }
 
     /* header */
@@ -74,7 +67,7 @@
 
     /* wrapper */
 
-    .wrapper { padding: 20px 25px; }
+    .wrapper { padding: 20px 25px 0 25px; margin-bottom: 20px; }
     .wrapper .content-title { margin-bottom: 5px; }
 
     /* inputs */
@@ -120,7 +113,7 @@
 	  #viz img { width: 423px; height: 272px; }
 
     /* footer */
-    footer { font-size: 12px; height: 45px; }
+    footer { font-size: 12px; }
     footer #licenses { font-size: 11px; }
     footer #licenses > div { font-size: 10px; }
 }

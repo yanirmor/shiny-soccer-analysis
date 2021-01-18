@@ -23,7 +23,6 @@ The position of each player-node is the average position of the player's touches
 
 ### Author
 Author: Yanir Mor  
-Email: contact@yanirmor.com  
 Website: [https://www.yanirmor.com](https://www.yanirmor.com)
 
 ### Credits
@@ -33,4 +32,4 @@ Website: [https://www.yanirmor.com](https://www.yanirmor.com)
 
 ---
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)  
-Copyright © 2019 Yanir Mor
+Copyright © Yanir Mor

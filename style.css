@@ -7,7 +7,7 @@ body {
     letter-spacing: 0.5px;
     color: #000000;
     margin: 0;
-    padding: 0 0 50px 0;
+    padding: 0 0 80px 0;
     position: relative;
     min-height: 100vh;
 }
@@ -79,39 +79,6 @@ header a:focus {
     text-decoration: none;
 }
 
-/* contact form */
-
-#my_email {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-
-    font-size: 15px;
-    font-weight: 600;
-    color: #498497;
-    margin-bottom: 15px;
-}
-
-#my_email img {
-    height: 30px;
-    margin-right: 5px;
-}
-
-#my_email a,
-#my_email a:hover,
-#my_email a:focus {
-    color: #498497;
-    text-decoration: none;
-}
-
 /* wrapper */
 
 .wrapper {
@@ -128,7 +95,8 @@ header a:focus {
     -ms-flex-align: center;
     align-items: center;
 
-    padding: 30px 50px;
+    padding: 30px 50px 0 50px;
+    margin-bottom: 30px;
 }
 
 .wrapper .content-title {
@@ -244,50 +212,6 @@ header a:focus {
   /* label position */
     position: relative;
     top: -2px;
-}
-
-/* modals */
-
-#shiny_modal {
-    padding: 0;
-}
-
-.modal-dialog {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-}
-
-.modal-header {
-    border-bottom: 1px solid #25414b;
-}
-
-.modal-title {
-    font-size: 19px;
-    font-weight: 700;    
-}
-
-.modal-title > span {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.modal-title img {
-    height: 30px;
-    margin-right: 5px;
-}
-
-.modal-content {
-    padding: 20px;
-}
-
-.modal-footer {
-    border: 0;
 }
 
 /* progress bar */
@@ -440,7 +364,7 @@ footer {
     text-align: center;
     position: absolute;
     bottom: 0;
-    height: 50px;
+    padding-top: 15px;
 
     display: -webkit-box;
     display: -ms-flexbox;
@@ -483,4 +407,8 @@ footer #licenses > div {
     color: #000000;
     background-color: rgba(224, 222, 222, 0.85);
     font-size: 12px;
+}
+
+footer #footer_copyright {
+    margin-bottom: 15px;
 }

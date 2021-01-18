@@ -1,30 +1,3 @@
-generic_modal <- function(error = T, content) {
-  title <- if (error) {
-    span(img(src = "icons/soccer_red.png", "Oops..."))
-  } else {
-    span(img(src = "icons/soccer_green.png", "Success!"))
-  }
-  
-  showModal(
-    modalDialog(
-      title = title,
-      easyClose = T,
-      content
-    )
-  )
-}
-
-connect_to_db <- function() {
-  dbConnect(
-    drv = Postgres(), 
-    host = Sys.getenv(x = "DB_HOST"),
-    port = Sys.getenv(x = "DB_PORT"),
-    dbname = Sys.getenv(x = "DB_NAME"),
-    user = Sys.getenv(x = "DB_USER"),
-    password = Sys.getenv(x = "DB_PASSWORD")
-  )
-}
-
 nudge_small_nodes <- function(dimension, value, main_axis = T) {
   max_value <- if (dimension == "x") 10500 else 6750
 
